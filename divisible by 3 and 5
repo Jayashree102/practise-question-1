@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class divisible {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner kbd = new Scanner(System.in);
+
+		 int n=kbd.nextInt();
+		 if(n%3==0 && n%5==0) {
+			 System.out.println("yes");
+		 }
+		 else {
+			 System.out.println("no");
+		 }
+
+
+	}
+
+}
+OUTPUT:
+15
+YES
+26
+NO
