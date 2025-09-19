@@ -1,0 +1,24 @@
+Check whether a triangle is Equilateral, Isosceles, or Scalene.
+Input format :
+Sides of the triangle in separate lines.
+Output format :
+Type of triangle.
+Sample test cases :
+Input :
+18
+18
+18
+Output :
+Equilateral Triangle
+Input :
+12
+25
+15
+Output :
+Scalene Triangle
+Input :
+52
+52
+323
+Output :
+Isosceles Triangle 
