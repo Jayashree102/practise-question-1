@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class evevodd { 
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner kbd = new Scanner(System.in);
+		 int n=kbd.nextInt();
+		 if(n%2==0) {
+			 System.out.println("EVEN");
+			  }
+		 else {
+			 System.out.println("odd");
+		 }
+  }
+}
+OUTPUT:
+2
+even
+11
+odd
